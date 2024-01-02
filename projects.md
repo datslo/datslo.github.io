@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+subtitle: Things I've Made
 ---
 
-- [_projects/madelyn.md](Madelyn)
+- {% link _projects/madelyn.md %}
