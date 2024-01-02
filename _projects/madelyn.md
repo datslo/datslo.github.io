@@ -1,13 +1,12 @@
 ---
-layout: Page
+layout: page
 title: Madelyn's BTC
 ---
 
-<div id="btc-converter">
-    <h1>Bitcoin to USD Converter</h1>
-    <button id="convert-btn">Convert BTC to USD</button>
-    <p id="conversion-result"></p>
-</div>
+# Bitcoin to USD Converter
+
+<button id="convert-btn">Convert BTC to USD</button>
+<p id="conversion-result"></p>
 
 <script>
 document.getElementById('convert-btn').addEventListener('click', function() {
