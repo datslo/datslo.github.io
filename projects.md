@@ -4,4 +4,4 @@ title: Projects
 subtitle: Things I've Made
 ---
 
-- <a href="/projects/madelyn">Madelyn's Bitcoin</a>
+- <a href="/madelyn">Madelyn's Bitcoin</a>
