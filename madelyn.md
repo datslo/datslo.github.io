@@ -14,7 +14,7 @@ document.getElementById('convert-btn').addEventListener('click', function() {
         .then(response => response.json())
         .then(data => {
             const btcPrice = data.bitcoin.usd;
-            const amountBtc = 0.00231961;
+            const amountBtc = (0.00231961+0.00049515);
             const usdValue = btcPrice * amountBtc;
             document.getElementById('conversion-result').textContent = `At this point in time, Madelyn has approximately $${usdValue.toFixed(2)} USD`;
         })
